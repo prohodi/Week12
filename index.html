@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Сервис комментариев со спам фильтром </h1>
+
+    <div class="main">
+        <div class="first">
+            <h2>Оставьте ваш комментарий</h2>
+            <p class="text">Введите ваше <span class="text-2">ФИО:</span></p><input type="text" class="fio1">
+            <p class="text">Введите ссылку <span class="text-2">вашего аватара</span></p><input type="text" id="ava">
+            <p class="text">Оставьте комментарий:</p><input class="komment" type="text" id="firstKomment">
+        </div>
+
+        <div class="second">
+            <h2>Чат:</h2>
+            <div class="fio">
+                <img class ="avatar" id="mainimg"> 
+                <p class="fio-text" id="fio2"></p>
+            </div>
+            <p class="second-komment" id="mainkomment"></p>
+        </div>
+
+    </div>
+<div>
+    <button type="submit" id="submit" onclick="clickMe();checkSpam()">Отправить</button>
+</div>
+    <script src="./index.js"></script>
+</body>
+</html>

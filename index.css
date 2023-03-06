@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+    color: aliceblue;
+    font-size: large;
+}
+h1{
+    margin: 0.5em;
+}
+h2{
+color: #1E90FF;
+
+}
+input{
+    background: transparent;
+    width: 99%;
+    border: 1px dashed #1E90FF;
+    color: antiquewhite;
+}
+p{
+    margin-top: 2em;
+}
+button {
+    text-align: center;
+    width: 10em;
+    height: 3em;
+    color: white;
+    background-color:#1E90FF; 
+    margin-top: 13em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+img{
+width: 30%;
+height:30%;
+
+}
+.komment{
+    height: 50%;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-self: start;
+}
+
+.first{
+    width: 60%;
+    margin-left: 1em;
+    
+}
+
+.second{
+    width: 40%;
+    margin-left: 1em;
+}
+
+
+.fio-text{
+    font-weight: bold;
+    color: #1E90FF ;
+    margin-left: 2em;
+}
+
+.text-2{
+    font-weight: bold;
+}
+
+.fio{
+    display: flex;
+}

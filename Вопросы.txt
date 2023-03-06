@@ -1,0 +1,26 @@
+1.	3 вида кавычек: «», ``, ‘’. Все кавычки работают как обычно, а с помощью обратных кавычек `` мы можем вставлять произвольные выражения, обернув их в ${}
+
+2.	Метод indexOf
+
+3.	\n – это перевод строки (как будто нажимаем Enter)
+
+4.	let firstName="котикпривет"
+    let firstLetter = firstName[0];
+    let wordTail=firstName.substring(1);
+    let bigLetter=firstLetter.toUpperCase();
+    let NewName=bigLetter+wordTail;
+    console.log (NewName);
+
+5.	Math.round()
+
+6.	let b=Math.round(Math.random() * 101);
+    console.log(b);
+
+7.	The string length is 6
+
+8.	ВЕЛОСИПЕД
+
+9.	красивые такие розы
+
+10.	"(2,3): cde"
+
